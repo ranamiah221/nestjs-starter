@@ -1,22 +1,20 @@
-DATABASE_URL="postgresql://postgres:postgresPassword@localhost:5435/johnbDB?schema=public"
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/nestDB?schema=public"
+PORT=5000
+JWT_ACCESS_SECRET=access_secret
+JWT_REFRESH_SECRET=refresh_secret
+JWT_ACCESS_EXPIRES=15m
+JWT_REFRESH_EXPIRES=7d
 
-JWT_SECRET =
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USER=yourmail@gmail.com
+MAIL_PASS=dvod dfds ieee ffdd
+MAIL_FROM=yourmail@gmail.com
 
-EMAIL_USER = 
-EMAIL_PASS= 
-
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_BUCKET_NAME=
-AWS_REGION=
-
-
-
-
-
-
-
-
+AWS_ACCESS_KEY_ID=AKIL
+AWS_SECRET_ACCESS_KEY=NbDfkfnusyA2Ex
+AWS_BUCKET_NAME=sesdsdsdsds
+AWS_REGION=eu-north-1
 
 
 
